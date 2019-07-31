@@ -13,6 +13,7 @@ import { AngularFireDatabase, AngularFireObject } from "angularfire2/database";
   See https://angular.io/guide/dependency-injection for more info on providers
   and Angular DI.
 */
+
 @Injectable()
 export class ChatService extends BaseService {
   chats: Observable<any>;
@@ -43,7 +44,6 @@ export class ChatService extends BaseService {
               return resp.reverse();
             })
           );
-
       }
     });
   }

@@ -25,6 +25,7 @@ export class UserService extends BaseService {
     super();
   }
 
+
   users: Observable<User[]>;
   currentUser: Promise<any>;
   user_id: string;
